@@ -15,12 +15,12 @@ E:/XR_Study/GitHub/CapstoneDesign_2021/CapstoneDesign_202
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51890
+55715
 Successfully changed project path to: E:/XR_Study/GitHub/CapstoneDesign_2021/CapstoneDesign_202
 E:/XR_Study/GitHub/CapstoneDesign_2021/CapstoneDesign_202
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 108.04 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.68 ms.
+Refreshing native plugins compatible for Editor in 122.99 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.65 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/XR_Study/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Assets
@@ -32,99 +32,101 @@ Direct3D:
     VRAM:     5980 MB
     Driver:   30.0.14.9729
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Hidden/BOXOPHOBIC/The Vegetation Engine/Helpers/Debug': dependency 'LightMode' shader 'ForwardBase' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011236 seconds.
+Registered in 0.011572 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.80 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 103.24 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.963 seconds
+- Completed reload, in  0.981 seconds
 Domain Reload Profiling:
-	ReloadAssembly (963ms)
+	ReloadAssembly (981ms)
 		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (652ms)
-			LoadAssemblies (143ms)
+		EndReloadAssembly (678ms)
+			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (249ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (270ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012010 seconds.
+Registered in 0.012467 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.67.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.677 seconds
+- Completed reload, in  1.756 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1679ms)
-		BeginReloadAssembly (261ms)
+	ReloadAssembly (1758ms)
+		BeginReloadAssembly (287ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1292ms)
-			LoadAssemblies (213ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1344ms)
+			LoadAssemblies (233ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (414ms)
+			SetupTypeCache (436ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (514ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (528ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (150ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (40ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (41ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Hidden/BOXOPHOBIC/The Vegetation Engine/Helpers/Debug': dependency 'LightMode' shader 'ForwardBase' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.44 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2740 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.3 MB.
-System memory in use after: 153.5 MB.
+Refreshing native plugins compatible for Editor in 2.01 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2854 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.1 MB.
+System memory in use after: 197.3 MB.
 
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3187.
-Total: 5.107100 ms (FindLiveObjects: 0.473200 ms CreateObjectMapping: 0.126400 ms MarkObjects: 4.283400 ms  DeleteObjects: 0.222600 ms)
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3301.
+Total: 6.019100 ms (FindLiveObjects: 0.542400 ms CreateObjectMapping: 0.158800 ms MarkObjects: 5.116100 ms  DeleteObjects: 0.199700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -138,57 +140,730 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/AutoHand/Scripts/New Lighting Settings.lighting
-  artifactKey: Guid(a687617e5c4efd74aa4c2929d960555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AutoHand/Scripts/New Lighting Settings.lighting using Guid(a687617e5c4efd74aa4c2929d960555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3d342d3274189e51d38ff0a37fc879') in 0.069846 seconds 
-  Import took 0.075714 seconds .
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes
+  artifactKey: Guid(e286c57383c7ced4fa6027d683b3b641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes using Guid(e286c57383c7ced4fa6027d683b3b641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1a993f44745a7d1550fc97699790ba') in 0.017897 seconds 
+  Import took 0.025134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/!!!Instructions!!!.rtf
+  artifactKey: Guid(7bba9b5d079768c4aa52b8575e7e460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/!!!Instructions!!!.rtf using Guid(7bba9b5d079768c4aa52b8575e7e460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2ddde1149242741ce88bc821672c0c') in 0.094991 seconds 
+  Import took 0.101526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_
+  artifactKey: Guid(9627fa5f07c7941469138462e45ec5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_ using Guid(9627fa5f07c7941469138462e45ec5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdac3defca041e425a6d331519604a5') in 0.005920 seconds 
+  Import took 0.012816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.222711 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/Scene01.unity
+  artifactKey: Guid(4384ec970f2342e4c84f45fc9d65ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/Scene01.unity using Guid(4384ec970f2342e4c84f45fc9d65ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6109331a5833c26f954e6b3824d430b6') in 0.004800 seconds 
+  Import took 0.009763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.671105 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Prefabs/DustStorm.prefab
+  artifactKey: Guid(606505703bd308f42b479370ae91c237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Prefabs/DustStorm.prefab using Guid(606505703bd308f42b479370ae91c237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05045a302b87326805707f8534622f4') in 0.103094 seconds 
+  Import took 0.108223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Prefabs/Point.mat
+  artifactKey: Guid(25b2ed3b059711443a30241caa215e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Prefabs/Point.mat using Guid(25b2ed3b059711443a30241caa215e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6ec451cb8214571a63b41a3822f25e') in 0.084604 seconds 
+  Import took 0.089602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Prefabs/Fly_effect.prefab
+  artifactKey: Guid(871d3ff6e1eaa854fbdcf77d28ee5f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Prefabs/Fly_effect.prefab using Guid(871d3ff6e1eaa854fbdcf77d28ee5f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309b2e73553502bf51ff7872e076bac0') in 0.016011 seconds 
+  Import took 0.021128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.755765 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Prefabs/textures/Point01.png
+  artifactKey: Guid(22dd5884941c8a94883b248ef49cd7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Prefabs/textures/Point01.png using Guid(22dd5884941c8a94883b248ef49cd7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77be588142f0877398a1dd45c1e58eb3') in 0.140340 seconds 
+  Import took 0.145766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.244437 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Prefabs/textures
+  artifactKey: Guid(701c4e71f5c139d46a10174f05330a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Prefabs/textures using Guid(701c4e71f5c139d46a10174f05330a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc38a90a983f22da9a5ef264d59f22a1') in 0.004254 seconds 
+  Import took 0.009328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.395117 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/PostProcess/PostProcess_FGFP.asset
+  artifactKey: Guid(7ba2b06fb32e5274aad88925a5b8d3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/PostProcess/PostProcess_FGFP.asset using Guid(7ba2b06fb32e5274aad88925a5b8d3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be22f1aea7323276bdea11b4c3bb50f7') in 0.037613 seconds 
+  Import took 0.042661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.731005 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_Grass_001.tif
+  artifactKey: Guid(7d55b38010c7fc944b61075b8099c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_Grass_001.tif using Guid(7d55b38010c7fc944b61075b8099c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ae5ee71e02f3bdda19c09db53b50da') in 0.042590 seconds 
+  Import took 0.047619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_Grass_002_N.png
+  artifactKey: Guid(9de451487e9e7b44c887b94a997025a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_Grass_002_N.png using Guid(9de451487e9e7b44c887b94a997025a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17c07e5518c3bbaace83cfe4efea6d3') in 0.019176 seconds 
+  Import took 0.024317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_GroundMUD01.tif
+  artifactKey: Guid(17189f5804875784ebf5637b01477157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_GroundMUD01.tif using Guid(17189f5804875784ebf5637b01477157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd859702df2c05d38ff365cc874e22682') in 0.019950 seconds 
+  Import took 0.025321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_PathGround02_N.png
+  artifactKey: Guid(14ba25ae98f5352449544e58055dc942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_PathGround02_N.png using Guid(14ba25ae98f5352449544e58055dc942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edacdd50f49ebd7c3165b6967b3c1ce5') in 0.015468 seconds 
+  Import took 0.020388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_GroundMUD01_N.png
+  artifactKey: Guid(42307e6892cdaec4da2144fa4241c142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_GroundMUD01_N.png using Guid(42307e6892cdaec4da2144fa4241c142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8123419adce7f710e062953c934734ad') in 0.016409 seconds 
+  Import took 0.021419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_Grass_002.tif
+  artifactKey: Guid(9b314f847e9de1a46b5535aaa8d4c0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_Grass_002.tif using Guid(9b314f847e9de1a46b5535aaa8d4c0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef213703f8a4d5650bcba5a4a016bcbc') in 0.016731 seconds 
+  Import took 0.021898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_PathGround02.tif
+  artifactKey: Guid(85ad585f16be9794aaa27177ba2c0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_PathGround02.tif using Guid(85ad585f16be9794aaa27177ba2c0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48ea23019e25d071df350cecc2f918e') in 0.019195 seconds 
+  Import took 0.024457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_Grass_001_N.png
+  artifactKey: Guid(4453373a3aa933b47af96cf3543b69fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/_Grass_001_N.png using Guid(4453373a3aa933b47af96cf3543b69fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e4a32d881952e0e6aef890155ba7bc') in 0.020533 seconds 
+  Import took 0.025718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.827648 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower01.tga
+  artifactKey: Guid(a9cd0f4f75b7cc64e8b6c41cb06f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower01.tga using Guid(a9cd0f4f75b7cc64e8b6c41cb06f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31603127405c299e8e37dd565239da8c') in 0.023563 seconds 
+  Import took 0.028606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower10.tga
+  artifactKey: Guid(ccea734377bfed4468dd2948e1d64618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower10.tga using Guid(ccea734377bfed4468dd2948e1d64618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08391ece97dcfb88ab6b76937b1e5299') in 0.013013 seconds 
+  Import took 0.017702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass27.tga
+  artifactKey: Guid(6d338380adc59cc47b9c06505c725acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass27.tga using Guid(6d338380adc59cc47b9c06505c725acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793e94dfaabfc91814d677b4d1775e59') in 0.016260 seconds 
+  Import took 0.020991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower19.tga
+  artifactKey: Guid(8bf5c9b92dda0f24f973711d73773ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower19.tga using Guid(8bf5c9b92dda0f24f973711d73773ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f9e0e90afb5621569bb32b412ad977') in 0.025610 seconds 
+  Import took 0.030628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass23.tga
+  artifactKey: Guid(0f47055a531dc114885dfc7e1ac4a86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass23.tga using Guid(0f47055a531dc114885dfc7e1ac4a86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61808803566e9f8b6a1b5a9e32332ccc') in 0.014048 seconds 
+  Import took 0.019131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass08.tga
+  artifactKey: Guid(e4371529a1e4d3646839524ab5993109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass08.tga using Guid(e4371529a1e4d3646839524ab5993109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7830d587cf2f3382ad59eca6874e2209') in 0.019695 seconds 
+  Import took 0.025041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass28.tga
+  artifactKey: Guid(64010d6c42b60b74eb7261baeedc9ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass28.tga using Guid(64010d6c42b60b74eb7261baeedc9ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d7ab1e226c2df3d223609f57f5a79d') in 0.019292 seconds 
+  Import took 0.024295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass11.tga
+  artifactKey: Guid(7180b6c5274cfab41837b98d212db512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass11.tga using Guid(7180b6c5274cfab41837b98d212db512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef51680a0576170ae040f588200d65fc') in 0.020825 seconds 
+  Import took 0.025916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass14.tga
+  artifactKey: Guid(a2e9f786fa07e0d44b2aa6fbf3d7c408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass14.tga using Guid(a2e9f786fa07e0d44b2aa6fbf3d7c408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa437b13ef66ee680d6366654a440f55') in 0.019819 seconds 
+  Import took 0.025435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower14.tga
+  artifactKey: Guid(5e7821db98a4096438e00bc97efa93ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower14.tga using Guid(5e7821db98a4096438e00bc97efa93ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fb1f3566790c63cc486085deb5859a') in 0.019273 seconds 
+  Import took 0.024469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass12.tga
+  artifactKey: Guid(793dbdca99d1c84418894f5de2c008bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass12.tga using Guid(793dbdca99d1c84418894f5de2c008bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd555d388f5d79ed0fe116839b46d4d12') in 0.020315 seconds 
+  Import took 0.025767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass02.tga
+  artifactKey: Guid(0fab305fba8f5074e808b5e3101801f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass02.tga using Guid(0fab305fba8f5074e808b5e3101801f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042044127ac064da3ed124e04e4e82ec') in 0.017716 seconds 
+  Import took 0.023176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass13.tga
+  artifactKey: Guid(a37fcc6ad638f89428ebcbd4070dad80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass13.tga using Guid(a37fcc6ad638f89428ebcbd4070dad80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0515acfddaf9c15ee29b1671e0feb241') in 0.019984 seconds 
+  Import took 0.024909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass19.tga
+  artifactKey: Guid(2d5f8b4d63ece5c48a777d3bebaa2b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass19.tga using Guid(2d5f8b4d63ece5c48a777d3bebaa2b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634e236af60c14537f096b7f7c7d697c') in 0.018407 seconds 
+  Import took 0.023336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass24.tga
+  artifactKey: Guid(19fb6427d5c2167468b9f3ceeb151777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass24.tga using Guid(19fb6427d5c2167468b9f3ceeb151777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663f58b71b24336115a7ddc0d9066ae7') in 0.019201 seconds 
+  Import took 0.024644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass04.tga
+  artifactKey: Guid(9409eddc62d8b50469262df5145a7984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass04.tga using Guid(9409eddc62d8b50469262df5145a7984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24613d97cac816ae2095aa2879e71d9') in 0.017844 seconds 
+  Import took 0.022963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower16.tga
+  artifactKey: Guid(0fe1d0d6d6100c44c94dc7a3a174e0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower16.tga using Guid(0fe1d0d6d6100c44c94dc7a3a174e0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd780120ec7cb60ba61094775f5dd3e') in 0.020318 seconds 
+  Import took 0.025446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower09.tga
+  artifactKey: Guid(7d0e0bb74b85f3b49be87ab72da675df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower09.tga using Guid(7d0e0bb74b85f3b49be87ab72da675df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67e234d7276f43566607405cc10ad7b') in 0.017750 seconds 
+  Import took 0.023061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower13.tga
+  artifactKey: Guid(e267247b64e3e7d4389c355f52eaa8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower13.tga using Guid(e267247b64e3e7d4389c355f52eaa8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be11d9dfe353d361b4bcacca875c5740') in 0.020762 seconds 
+  Import took 0.026510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower04.tga
+  artifactKey: Guid(03100dd835a429c40b763c300b2362d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower04.tga using Guid(03100dd835a429c40b763c300b2362d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd56886508102e3dd09e75754df57bad') in 0.017751 seconds 
+  Import took 0.022832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower08.tga
+  artifactKey: Guid(0b420737bf81df04f821530be2ab8ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower08.tga using Guid(0b420737bf81df04f821530be2ab8ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f369f52680e09afaebb4fd271f4f7c2') in 0.021712 seconds 
+  Import took 0.028345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass07.tga
+  artifactKey: Guid(71c8050f30f86d3448aa358bfe4118f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass07.tga using Guid(71c8050f30f86d3448aa358bfe4118f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0c205dae33fc34a0b2dc409e3fa794') in 0.032044 seconds 
+  Import took 0.038844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower12.tga
+  artifactKey: Guid(1d1affbe764c6d44280c6843fe648581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower12.tga using Guid(1d1affbe764c6d44280c6843fe648581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b8e6ceb05df09638d6d6dd983e6838') in 0.025760 seconds 
+  Import took 0.031178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower05.tga
+  artifactKey: Guid(51b5a487d762f204c9f6d08429a04d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower05.tga using Guid(51b5a487d762f204c9f6d08429a04d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18ed63df7f56259acee296c3d7ef6a6') in 0.017200 seconds 
+  Import took 0.022480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass01.tga
+  artifactKey: Guid(d388833875fa5bc4ca614daa29887259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass01.tga using Guid(d388833875fa5bc4ca614daa29887259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b509901d717301cc113e11bacdd4ffe') in 0.016914 seconds 
+  Import took 0.023039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass17.tga
+  artifactKey: Guid(305d54a190e2fcb4a90023a85c9c1001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass17.tga using Guid(305d54a190e2fcb4a90023a85c9c1001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3220f4bb53a85928011b327bb4dd0e') in 0.028491 seconds 
+  Import took 0.036423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass26.tga
+  artifactKey: Guid(b519280d0026fba4fade9b11e6096cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass26.tga using Guid(b519280d0026fba4fade9b11e6096cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366fb88c318e09b8a28935199ea6a94f') in 0.020611 seconds 
+  Import took 0.027627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower06.tga
+  artifactKey: Guid(797b6ea8439038345bff33048963ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower06.tga using Guid(797b6ea8439038345bff33048963ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7237155b123c583bba569803e562590c') in 0.020028 seconds 
+  Import took 0.026112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass18.tga
+  artifactKey: Guid(7932d9cfec9de9a48811fc4f35df19c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass18.tga using Guid(7932d9cfec9de9a48811fc4f35df19c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55ab6afe40cc8561074f3452e6da978') in 0.022775 seconds 
+  Import took 0.028265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass05.tga
+  artifactKey: Guid(5c568fffef5ca5543b3e5d154cf5a7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass05.tga using Guid(5c568fffef5ca5543b3e5d154cf5a7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc4f71fe54da3e707afb1e292d0da39') in 0.021989 seconds 
+  Import took 0.027669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass16.tga
+  artifactKey: Guid(12e924fe4942844458858fdd7fae92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass16.tga using Guid(12e924fe4942844458858fdd7fae92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056e38fc4a913acd6673b06e1b4777b4') in 0.021787 seconds 
+  Import took 0.027690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass06.tga
+  artifactKey: Guid(8ef605cc79825a444b184eaf7b5119c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass06.tga using Guid(8ef605cc79825a444b184eaf7b5119c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3270c3151bee7ed004b1ec0e3e368064') in 0.018881 seconds 
+  Import took 0.024993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass10.tga
+  artifactKey: Guid(a2f705693a5ad8d40af3ea3c3c1db4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass10.tga using Guid(a2f705693a5ad8d40af3ea3c3c1db4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea3b00b8d80618d85de7df120f500d2') in 0.017223 seconds 
+  Import took 0.023462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower17.tga
+  artifactKey: Guid(3aa3f5d1ddc1c4941b758fdeb371cd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower17.tga using Guid(3aa3f5d1ddc1c4941b758fdeb371cd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf8fb82cd1c68eae479790c3282afec') in 0.025026 seconds 
+  Import took 0.030068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower15.tga
+  artifactKey: Guid(a83faf184cccb634e9d8088c776140f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower15.tga using Guid(a83faf184cccb634e9d8088c776140f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f8451e0bfec8d5537d1a8613395ed5') in 0.019785 seconds 
+  Import took 0.025837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass20.tga
+  artifactKey: Guid(f1f55380f29533049a98959457acd165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass20.tga using Guid(f1f55380f29533049a98959457acd165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcc6a709043e931e9a55dbbe042bcde') in 0.017187 seconds 
+  Import took 0.023035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower02.tga
+  artifactKey: Guid(464d5c4354c421d44a02c5da2cf9883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower02.tga using Guid(464d5c4354c421d44a02c5da2cf9883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1435904bc5ed58bc47d321965de9b1') in 0.020315 seconds 
+  Import took 0.025730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass15.tga
+  artifactKey: Guid(441e04c144563564cad8831eb2a92079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass15.tga using Guid(441e04c144563564cad8831eb2a92079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2b4efefa7dac0c7bf6860a253b78fa') in 0.019823 seconds 
+  Import took 0.025757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower03.tga
+  artifactKey: Guid(95df3283d82fb9d4c98d05805450ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower03.tga using Guid(95df3283d82fb9d4c98d05805450ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f62325c3ee4eec725de3c2fa72d044') in 0.020280 seconds 
+  Import took 0.025685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass25.tga
+  artifactKey: Guid(4c57366c7d3ee0b41bc1691fed912c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass25.tga using Guid(4c57366c7d3ee0b41bc1691fed912c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c28b7b454156de35b3fc3b3cc2ce2af') in 0.047385 seconds 
+  Import took 0.054430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower11.tga
+  artifactKey: Guid(75729aaf876489643a17093281ca3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower11.tga using Guid(75729aaf876489643a17093281ca3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c05cc35afe14acfb8879c15456fce2d') in 0.013700 seconds 
+  Import took 0.019074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass03.tga
+  artifactKey: Guid(8f7ee3c280e43dd46ae9b1b290bb72eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass03.tga using Guid(8f7ee3c280e43dd46ae9b1b290bb72eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aaaf1101a5cf1b7e682b6c42b7c196') in 0.017598 seconds 
+  Import took 0.023413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower18.tga
+  artifactKey: Guid(502e5958627bf8845891df26eb367881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower18.tga using Guid(502e5958627bf8845891df26eb367881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca976f37a5be325a3f93cb310d44e8c') in 0.020094 seconds 
+  Import took 0.026176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass22.tga
+  artifactKey: Guid(fe797348ffb6b224e9652078d6417681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass22.tga using Guid(fe797348ffb6b224e9652078d6417681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcab6547290c9f4fd70a059efded0cb1') in 0.021394 seconds 
+  Import took 0.027518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass09.tga
+  artifactKey: Guid(5d1d46de4926f1d4eac8301907986980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass09.tga using Guid(5d1d46de4926f1d4eac8301907986980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e636dd6cae05a16617a4b985b69f0c') in 0.029391 seconds 
+  Import took 0.035272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower20.tga
+  artifactKey: Guid(fc0efddca0c84ff40ab602766bbeb401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Flower20.tga using Guid(fc0efddca0c84ff40ab602766bbeb401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5302b6969264407612478e9091e671') in 0.015242 seconds 
+  Import took 0.021052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass21.tga
+  artifactKey: Guid(9e0f15add87297e4c826ede8436b2a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures/Grass21.tga using Guid(9e0f15add87297e4c826ede8436b2a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d21f817d4e67fbf1b25ad2b9d1ac24') in 0.015874 seconds 
+  Import took 0.020852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.746707 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/SkyMaterial/Skybox_Mat_FGFP.mat
+  artifactKey: Guid(e79deb2e6d4a5b142a0efa22234d22f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/SkyMaterial/Skybox_Mat_FGFP.mat using Guid(e79deb2e6d4a5b142a0efa22234d22f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fec54b3143896373982feae8aac421') in 0.016004 seconds 
+  Import took 0.020955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.482668 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA
+  artifactKey: Guid(fb20c936a537ef343b2ac30d5811d353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA using Guid(fb20c936a537ef343b2ac30d5811d353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e388d4a26618e4c69a3fe394bfe15cb0') in 0.003923 seconds 
+  Import took 0.009088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059616 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain01.asset
+  artifactKey: Guid(f8a3190fbc599f14bac7bd4d7980eb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain01.asset using Guid(f8a3190fbc599f14bac7bd4d7980eb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ad2d5444bef42811b7da2650cf5aa0') in 0.539874 seconds 
+  Import took 0.557205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain02_2.asset
+  artifactKey: Guid(2d9ece25aca38d8488d4e65022bbd3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain02_2.asset using Guid(2d9ece25aca38d8488d4e65022bbd3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb7970cb1a6e3a7c2e7e204d66fb8d1') in 0.315121 seconds 
+  Import took 0.323586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain03.asset
+  artifactKey: Guid(a32ca05f3b855674aa3183e30b3ccfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain03.asset using Guid(a32ca05f3b855674aa3183e30b3ccfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3004181ced3a1426d85fec35742024c') in 0.295921 seconds 
+  Import took 0.305290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain03_3.asset
+  artifactKey: Guid(78725064dfb0cf54e92a411c0bf5e635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain03_3.asset using Guid(78725064dfb0cf54e92a411c0bf5e635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970b2bc2edb798f5dd3986673e50d8db') in 0.171264 seconds 
+  Import took 0.179219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain04_4.asset
+  artifactKey: Guid(259f4fd34d839234094852f96c1a87fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain04_4.asset using Guid(259f4fd34d839234094852f96c1a87fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f063cb92e25c8fdec61048b2c2ccb9') in 0.187979 seconds 
+  Import took 0.195818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain01_.asset
+  artifactKey: Guid(f975c0a742c4e764f9941f8d9230e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain01_.asset using Guid(f975c0a742c4e764f9941f8d9230e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60184e036963f43e98e742030bc9feb9') in 0.324194 seconds 
+  Import took 0.335109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain04_.asset
+  artifactKey: Guid(9f61fb981194ea54c8e8da2da134a0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain04_.asset using Guid(9f61fb981194ea54c8e8da2da134a0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d7d35bf6e33e665355319d26974653') in 0.212042 seconds 
+  Import took 0.220401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain02_.asset
+  artifactKey: Guid(3c00f4674dc9c5a4381e995ffdf93d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain02_.asset using Guid(3c00f4674dc9c5a4381e995ffdf93d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4c16699fa0f70c0450264b560d46aa') in 0.488224 seconds 
+  Import took 0.500669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain03_.asset
+  artifactKey: Guid(77c415d57ae39c44f825121200bdec57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain03_.asset using Guid(77c415d57ae39c44f825121200bdec57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48da35c7744a5474b6f900c06aad3e0d') in 0.168538 seconds 
+  Import took 0.175654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain04.asset
+  artifactKey: Guid(ff252602bccedd04e86f64965778dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain04.asset using Guid(ff252602bccedd04e86f64965778dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb860f4cb8cf4bfc2498b70111899545') in 0.369326 seconds 
+  Import took 0.380252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain02.asset
+  artifactKey: Guid(0b5ee7c3ba1e20e43a82cf4f6bcf6ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain02.asset using Guid(0b5ee7c3ba1e20e43a82cf4f6bcf6ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5cab3c2b7cc8e0e25b2a64cfdd50b1') in 0.414559 seconds 
+  Import took 0.427833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain01_1.asset
+  artifactKey: Guid(a6b566dd8e018e548b2eec3ebc4f86af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/Scenes/TerrainsDATA/Terrain01_1.asset using Guid(a6b566dd8e018e548b2eec3ebc4f86af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c3968a11b75e07866a6bac3e4cdd34') in 0.314639 seconds 
+  Import took 0.324058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.182964 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures
+  artifactKey: Guid(a5081e6f1ce6ebe4b8938656eb0a7283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GrassFlowersTextures using Guid(a5081e6f1ce6ebe4b8938656eb0a7283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b4e70ca8622a1a2a25a4c8d365e9c7') in 0.003960 seconds 
+  Import took 0.008934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.709292 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/Layers
+  artifactKey: Guid(1c8fa3ac8fe322249a0612673cdf97c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/Layers using Guid(1c8fa3ac8fe322249a0612673cdf97c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784d5b4b654883e4edb8644ba92add61') in 0.004170 seconds 
+  Import took 0.009318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068963 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/Layers/_Grass001.terrainlayer
+  artifactKey: Guid(00b40bc784f2d2d498eda521512ee150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/Layers/_Grass001.terrainlayer using Guid(00b40bc784f2d2d498eda521512ee150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6724aae3331cef9dc642dbf8fe64acea') in 0.032566 seconds 
+  Import took 0.038354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/Layers/_PathGround02.terrainlayer
+  artifactKey: Guid(0586303e1695c924995a76e3b4b939ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/Layers/_PathGround02.terrainlayer using Guid(0586303e1695c924995a76e3b4b939ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a7645e4e9a077a1f50d13b237aa5a6') in 0.024452 seconds 
+  Import took 0.030482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/Layers/_GroundMUD01.terrainlayer
+  artifactKey: Guid(c6a43c0a2a5647b4db0edc117f37d251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/Layers/_GroundMUD01.terrainlayer using Guid(c6a43c0a2a5647b4db0edc117f37d251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d20509f0e6da0d17581fbf1f47a60d') in 0.020372 seconds 
+  Import took 0.026667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/Layers/_Grass002.terrainlayer
+  artifactKey: Guid(b9d8b786f54593f438fdbf2acac19c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP8310_Assets/_RealisticGrassFlowersPack_/GroundTextures/Layers/_Grass002.terrainlayer using Guid(b9d8b786f54593f438fdbf2acac19c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46feb0a41ae8752fcf266ce59c10946') in 0.036168 seconds 
+  Import took 0.042237 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.015470 seconds.
+Registered in 0.014466 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.612 seconds
+- Completed reload, in  1.682 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1613ms)
-		BeginReloadAssembly (229ms)
+	ReloadAssembly (1682ms)
+		BeginReloadAssembly (232ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1254ms)
-			LoadAssemblies (221ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1322ms)
+			LoadAssemblies (234ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (422ms)
+			SetupTypeCache (439ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (483ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (516ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (41ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (295ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (48ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Hidden/BOXOPHOBIC/The Vegetation Engine/Helpers/Debug': dependency 'LightMode' shader 'ForwardBase' not found
 Refreshing native plugins compatible for Editor in 1.52 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2607 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.2 MB.
-System memory in use after: 141.4 MB.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2695 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.7 MB.
+System memory in use after: 186.0 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3190.
-Total: 4.329100 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.083700 ms MarkObjects: 3.857800 ms  DeleteObjects: 0.037300 ms)
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3354.
+Total: 4.850300 ms (FindLiveObjects: 0.437700 ms CreateObjectMapping: 0.119300 ms MarkObjects: 4.242300 ms  DeleteObjects: 0.049300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -201,51 +876,84 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 102.289687 seconds.
+  path: Assets/BOXOPHOBIC/The Vegetation Engine/Learn
+  artifactKey: Guid(8e789af6e782fbc48a04e053fa8c69ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/The Vegetation Engine/Learn using Guid(8e789af6e782fbc48a04e053fa8c69ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63007ce609bc180f1a0e0e7f3fc3bd4') in 0.008757 seconds 
+  Import took 0.014555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.248286 seconds.
+  path: Assets/BOXOPHOBIC/The Vegetation Engine/Demo/Demo Explosion.unity
+  artifactKey: Guid(4c15ba899f2d8dd458d732b97750ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/The Vegetation Engine/Demo/Demo Explosion.unity using Guid(4c15ba899f2d8dd458d732b97750ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea8a5723c816119bfef1212d0d6be7c') in 0.029984 seconds 
+  Import took 0.035403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.695928 seconds.
+  path: Assets/BOXOPHOBIC/The Vegetation Engine/Demo/Elements/Materials/Expolsion.mat
+  artifactKey: Guid(cbef0ed348ac10f4980929fdfb55f175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/The Vegetation Engine/Demo/Elements/Materials/Expolsion.mat using Guid(cbef0ed348ac10f4980929fdfb55f175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f37f6228c784454b11a887b93a57318') in 0.064937 seconds 
+  Import took 0.070183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.148411 seconds.
+  path: Assets/BOXOPHOBIC/The Vegetation Engine/Demo/Demo Growind.unity
+  artifactKey: Guid(230f605de67a53047b8f052dfc6448b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/The Vegetation Engine/Demo/Demo Growind.unity using Guid(230f605de67a53047b8f052dfc6448b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb42e59b2c1da8bca6971cdc278836b') in 0.004338 seconds 
+  Import took 0.009614 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012197 seconds.
+Registered in 0.012962 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.614 seconds
+- Completed reload, in  1.656 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1615ms)
-		BeginReloadAssembly (215ms)
+	ReloadAssembly (1657ms)
+		BeginReloadAssembly (222ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1272ms)
-			LoadAssemblies (216ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1303ms)
+			LoadAssemblies (229ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (424ms)
+			SetupTypeCache (439ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (490ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (503ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (137ms)
-				ProcessInitializeOnLoadAttributes (283ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (287ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (44ms)
+				AfterProcessingInitializeOnLoad (43ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2607 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.2 MB.
-System memory in use after: 141.4 MB.
+Shader 'Hidden/BOXOPHOBIC/The Vegetation Engine/Helpers/Debug': dependency 'LightMode' shader 'ForwardBase' not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2695 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.8 MB.
+System memory in use after: 186.0 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3193.
-Total: 3.962200 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.075700 ms MarkObjects: 3.532000 ms  DeleteObjects: 0.035000 ms)
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3358.
+Total: 3.938000 ms (FindLiveObjects: 0.353000 ms CreateObjectMapping: 0.084100 ms MarkObjects: 3.465200 ms  DeleteObjects: 0.033900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

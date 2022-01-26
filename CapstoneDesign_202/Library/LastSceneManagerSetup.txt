@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/BOXOPHOBIC/The Vegetation Engine/Demo/Demo Growind.unity
+- path: Assets/Scenes/palacemap.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

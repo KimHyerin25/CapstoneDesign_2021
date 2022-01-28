@@ -161,6 +161,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableRegistry.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Hand\HandPoseArea.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Demo\Demo Scene\ScaleHighlight.cs" />
+     <Compile Include="Assets\windowopen.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\HandedInputSelector.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabbable.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\Utils\Pose.cs" />
@@ -497,6 +498,7 @@
      <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Bloom.cginc" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
      <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+     <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
      <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\BOXOPHOBIC\The Vegetation Engine\Core\Includes\VS_Indirect.cginc" />

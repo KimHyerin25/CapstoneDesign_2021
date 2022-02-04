@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/newportal scene.unity
+- path: Assets/Scenes/palacemap.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

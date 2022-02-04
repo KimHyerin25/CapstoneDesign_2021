@@ -12,6 +12,7 @@ public class windowopentrigger2 : MonoBehaviour
     [SerializeField] private string doorOpen = "DoorOpen";
     [SerializeField] private string doorClose = "DoorClose";
 
+    
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("¾ÈµÊ");

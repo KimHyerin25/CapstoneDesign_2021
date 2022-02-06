@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{83841B4E-7905-4FA8-A60C-B06DB4285E88}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{83841B4E-7905-4FA8-A60C-B06DB4285E88}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main_ambience" ID="{DDE909B2-2756-46DB-BF2D-A21DF7E1E0F1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP" ID="{9CC812FB-0444-4704-961E-ED5397C01252}" WorkUnitID="{CD73D220-3DA4-4ADC-AD68-A05DF5035C2D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

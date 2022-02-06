@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/g14/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/CapstoneDesign_202_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/g14/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/CapstoneDesign_202_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/g14/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/CapstoneDesign_202_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/g14/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/CapstoneDesign_202_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="72377605" Language="SFX" Hash="3278364682">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main_ambience</ObjectPath>
+			<ShortName>Main_ambience</ShortName>
+			<Path>Main_ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1882474850" Name="Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP" ObjectPath="\Events\Default Work Unit\Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP" MaxAttenuation="120." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="55819008" Language="SFX">
+							<ShortName>AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP.wav</ShortName>
+							<Path>SFX/AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP_40F5E37D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

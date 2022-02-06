@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B89D9F4E-0167-446B-BC21-D590FD4805CB}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B89D9F4E-0167-446B-BC21-D590FD4805CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP" ID="{BF9E34FD-FF83-4D11-B028-3C8FBCDB56DE}" ShortID="724870722">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>22</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Sound Range" ID="{7FBB3CB9-3878-4F7D-A7A3-5F8D1DA1B50A}" WorkUnitID="{3A2416D7-1F7B-42CB-BEE7-B32FD9B5A0FF}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A7C5706-742F-4C4B-AAED-7E4D9C1A3B82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{919F35D9-658B-4DAA-A400-5C0A55F08074}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP" ID="{D36D1C54-AD65-4D1F-9547-D0DD5423B1BA}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.51662984283626"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="29.720200048733"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="55819008"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP" ID="{D36D1C54-AD65-4D1F-9547-D0DD5423B1BA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

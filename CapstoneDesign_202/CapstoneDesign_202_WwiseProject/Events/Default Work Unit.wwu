@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD73D220-3DA4-4ADC-AD68-A05DF5035C2D}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{CD73D220-3DA4-4ADC-AD68-A05DF5035C2D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP" ID="{9CC812FB-0444-4704-961E-ED5397C01252}">
+					<ChildrenList>
+						<Action Name="" ID="{9B8BF8EF-787A-470A-AAB7-0870662588E5}" ShortID="434809720">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP" ID="{BF9E34FD-FF83-4D11-B028-3C8FBCDB56DE}" WorkUnitID="{B89D9F4E-0167-446B-BC21-D590FD4805CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1882474850	Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP			\Default Work Unit\Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	55819008	AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP	Y:\Documents\GitHub\CapstoneDesign_2021\CapstoneDesign_202\CapstoneDesign_202_WwiseProject\.cache\Mac\SFX\AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP_40F5E37D.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP		5706340
+

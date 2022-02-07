@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Sound Range" ID="{7FBB3CB9-3878-4F7D-A7A3-5F8D1DA1B50A}" ShortID="1035408025">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="120"/>
+						<Property Name="RadiusMax" Type="Real64" Value="140"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -22,7 +22,7 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>120</XPos>
+											<XPos>140</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

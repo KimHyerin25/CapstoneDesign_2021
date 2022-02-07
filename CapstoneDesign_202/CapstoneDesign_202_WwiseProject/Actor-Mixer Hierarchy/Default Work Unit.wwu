@@ -14,7 +14,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -46,6 +46,145 @@
 					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP" ID="{D36D1C54-AD65-4D1F-9547-D0DD5423B1BA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wind In Pine Trees - Sound Effect" ID="{F44D8118-98A4-4F48-B0EE-550452F23018}" ShortID="166209109">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>11</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{7FBB3CB9-3878-4F7D-A7A3-5F8D1DA1B50A}">
+								<Attenuation Name="Sound Range (Custom)" ID="{47E675D9-73CB-490C-B4FA-59A337E717D8}" ShortID="379049225">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="120"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{F859F890-1663-4656-87AB-455164CC663B}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>120</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A7C5706-742F-4C4B-AAED-7E4D9C1A3B82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{919F35D9-658B-4DAA-A400-5C0A55F08074}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wind In Pine Trees - Sound Effect" ID="{DBC75F5F-296C-4ED4-86E2-30A8D95D74EA}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.56836535783904"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="3.13673071567808"/>
+								<Property Name="LoopEnd" Type="Real64" Value="191.967919799499"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="13.174269005848"/>
+								<Property Name="TrimEnd" Type="Real64" Value="192.281592871067"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Wind In Pine Trees - Sound Effect.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="86803246"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{0579E77A-4574-4F9C-B364-976E20FBC95F}"/>
+					</PositioningInfo>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Wind In Pine Trees - Sound Effect" ID="{DBC75F5F-296C-4ED4-86E2-30A8D95D74EA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wind Chimes Sound Effect (free)" ID="{89F9EFE5-133E-4DD9-999B-9DBD927EF221}" ShortID="738345607">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-26</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A7C5706-742F-4C4B-AAED-7E4D9C1A3B82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{919F35D9-658B-4DAA-A400-5C0A55F08074}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wind Chimes Sound Effect (free)" ID="{791EC336-DD90-4CD0-A23F-95B57383CBC1}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="26.0341520467836"/>
+								<Property Name="TrimEnd" Type="Real64" Value="40.7097744360902"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Wind Chimes Sound Effect (free).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="541015383"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Wind Chimes Sound Effect (free)" ID="{791EC336-DD90-4CD0-A23F-95B57383CBC1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

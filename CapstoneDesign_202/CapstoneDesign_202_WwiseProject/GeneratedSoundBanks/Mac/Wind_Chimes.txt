@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	988416763	Play_Wind_Chimes_Sound_Effect__free_			\Default Work Unit\Play_Wind_Chimes_Sound_Effect__free_	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	541015383	Wind Chimes Sound Effect (free)	Y:\Documents\GitHub\CapstoneDesign_2021\CapstoneDesign_202\CapstoneDesign_202_WwiseProject\.cache\Mac\SFX\Wind Chimes Sound Effect (free)_6E1462DA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind Chimes Sound Effect (free)		2588844
+

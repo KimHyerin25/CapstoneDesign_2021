@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 4e1b84830579a84fa60cb06db4285e88
     GuidInternal: 
-    m_lastTime: -8585574793704775808
+    m_lastTime: -8585573939254775808
     List:
     - name: Main_ambience
       guid: b209e9dd5627db46bf2da21df7e1e0f1
@@ -82,6 +82,34 @@ MonoBehaviour:
         ObjectType: 7
         guid: b209e9dd5627db46bf2da21df7e1e0f1
       Path: SoundBanks/Default Work Unit/Main_ambience
+    - name: Wind_Chimes
+      guid: 693aa1006172a84088f818b9df29b953
+      id: 1277414221
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4e1b84830579a84fa60cb06db4285e88
+      - ElementName: Wind_Chimes
+        ObjectType: 7
+        guid: 693aa1006172a84088f818b9df29b953
+      Path: SoundBanks/Default Work Unit/Wind_Chimes
+    - name: Wind_in_pine_trees
+      guid: a01887ac071e064183f7d4aab2eb99eb
+      id: 4163747318
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4e1b84830579a84fa60cb06db4285e88
+      - ElementName: Wind_in_pine_trees
+        ObjectType: 7
+        guid: a01887ac071e064183f7d4aab2eb99eb
+      Path: SoundBanks/Default Work Unit/Wind_in_pine_trees
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -94,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 20d273cda43ddc4aad68a05df5035c2d
     GuidInternal: 
-    m_lastTime: -8585574793704775808
+    m_lastTime: -8585573939254775808
     List:
     - name: Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP
       guid: fb12c89c44040447961eed5397c01252
@@ -110,9 +138,43 @@ MonoBehaviour:
         ObjectType: 3
         guid: fb12c89c44040447961eed5397c01252
       Path: Events/Default Work Unit/Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP
+      maxAttenuation: 140
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Wind_Chimes_Sound_Effect__free_
+      guid: 948a4c148913ce47b9309d94121b41f8
+      id: 988416763
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 20d273cda43ddc4aad68a05df5035c2d
+      - ElementName: Play_Wind_Chimes_Sound_Effect__free_
+        ObjectType: 3
+        guid: 948a4c148913ce47b9309d94121b41f8
+      Path: Events/Default Work Unit/Play_Wind_Chimes_Sound_Effect__free_
+      maxAttenuation: 0
+      maxDuration: 14.675622
+      minDuration: 14.675622
+    - name: Play_Wind_In_Pine_Trees___Sound_Effect
+      guid: 59a3d694752b544fae4c1f823d8ec240
+      id: 3483543033
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 20d273cda43ddc4aad68a05df5035c2d
+      - ElementName: Play_Wind_In_Pine_Trees___Sound_Effect
+        ObjectType: 3
+        guid: 59a3d694752b544fae4c1f823d8ec240
+      Path: Events/Default Work Unit/Play_Wind_In_Pine_Trees___Sound_Effect
       maxAttenuation: 120
-      maxDuration: 81.97023
-      minDuration: 81.97023
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +232,7 @@ MonoBehaviour:
     m_lastTime: -8585574809594775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000090000000a000000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000b0000000c0000000d0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

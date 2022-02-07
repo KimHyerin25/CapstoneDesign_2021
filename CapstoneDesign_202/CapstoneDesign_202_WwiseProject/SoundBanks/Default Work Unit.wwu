@@ -10,6 +10,20 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Wind_in_pine_trees" ID="{AC8718A0-1E07-4106-83F7-D4AAB2EB99EB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Wind In Pine Trees - Sound Effect" ID="{F44D8118-98A4-4F48-B0EE-550452F23018}" WorkUnitID="{B89D9F4E-0167-446B-BC21-D590FD4805CB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Wind_Chimes" ID="{00A13A69-7261-40A8-88F8-18B9DF29B953}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Wind Chimes Sound Effect (free)" ID="{89F9EFE5-133E-4DD9-999B-9DBD927EF221}" WorkUnitID="{B89D9F4E-0167-446B-BC21-D590FD4805CB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Wind_Chimes_Sound_Effect__free_" ID="{144C8A94-1389-47CE-B930-9D94121B41F8}">
+					<ChildrenList>
+						<Action Name="" ID="{B355572C-0CA6-46BB-ADF8-FEAC453E32AE}" ShortID="344465661">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind Chimes Sound Effect (free)" ID="{89F9EFE5-133E-4DD9-999B-9DBD927EF221}" WorkUnitID="{B89D9F4E-0167-446B-BC21-D590FD4805CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wind_In_Pine_Trees___Sound_Effect" ID="{94D6A359-2B75-4F54-AE4C-1F823D8EC240}">
+					<ChildrenList>
+						<Action Name="" ID="{DDC632CC-C061-4978-AD2A-C59DD91102B5}" ShortID="1069478442">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind In Pine Trees - Sound Effect" ID="{F44D8118-98A4-4F48-B0EE-550452F23018}" WorkUnitID="{B89D9F4E-0167-446B-BC21-D590FD4805CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

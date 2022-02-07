@@ -26,10 +26,38 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
+		<SoundBank Id="1277414221" Language="SFX" Hash="2857786020">
+			<ObjectPath>\SoundBanks\Default Work Unit\Wind_Chimes</ObjectPath>
+			<ShortName>Wind_Chimes</ShortName>
+			<Path>Wind_Chimes.bnk</Path>
+			<IncludedEvents>
+				<Event Id="988416763" Name="Play_Wind_Chimes_Sound_Effect__free_" ObjectPath="\Events\Default Work Unit\Play_Wind_Chimes_Sound_Effect__free_" DurationType="OneShot" DurationMin="14.675622" DurationMax="14.675622"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="541015383" Language="SFX">
+					<ShortName>Wind Chimes Sound Effect (free).wav</ShortName>
+					<Path>SFX/Wind Chimes Sound Effect (free)_6E1462DA.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="2901137828">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4163747318" Language="SFX" Hash="4170198996">
+			<ObjectPath>\SoundBanks\Default Work Unit\Wind_in_pine_trees</ObjectPath>
+			<ShortName>Wind_in_pine_trees</ShortName>
+			<Path>Wind_in_pine_trees.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3483543033" Name="Play_Wind_In_Pine_Trees___Sound_Effect" ObjectPath="\Events\Default Work Unit\Play_Wind_In_Pine_Trees___Sound_Effect" MaxAttenuation="120." DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="86803246" Language="SFX">
+					<ShortName>Wind In Pine Trees - Sound Effect.wav</ShortName>
+					<Path>SFX/Wind In Pine Trees - Sound Effect_2A72AF96.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

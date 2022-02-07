@@ -3,6 +3,8 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{2D39CD49-1BFA-47B8-A55E-05B5F7952772}">
 			<PropertyList>
+				<Property Name="Event Action List\{144C8A94-1389-47CE-B930-9D94121B41F8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{94D6A359-2B75-4F54-AE4C-1F823D8EC240}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9CC812FB-0444-4704-961E-ED5397C01252}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -24,7 +26,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Android"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="Fh2bkDMDr0uCUZ1lMoT5A682jbM3M8JJjHwf4XtjS/8="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="sgnp3VYn20a/LaId9+Hg8Q=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="sgnp3VYn20a/LaId9+Hg8Wk6oQBhcqhAiPgYud8puVOgGIesBx4GQYP31Kqy65nr"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="l1a0lmD2QEeNIH1eozbnKAEnWAD/////CdAAe/RKYUitA7tqH29eWAEnWAD/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3483543033	Play_Wind_In_Pine_Trees___Sound_Effect			\Default Work Unit\Play_Wind_In_Pine_Trees___Sound_Effect	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	86803246	Wind In Pine Trees - Sound Effect	Y:\Documents\GitHub\CapstoneDesign_2021\CapstoneDesign_202\CapstoneDesign_202_WwiseProject\.cache\Android\SFX\Wind In Pine Trees - Sound Effect_2A72AF96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind In Pine Trees - Sound Effect		31594660
+

@@ -24,6 +24,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Mainhall_Music" ID="{A2116ABA-BD14-472E-AEA1-3019F173B658}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Meditation" ID="{266CB435-CAE8-4CDC-B4DA-ACAA55AA71FA}" WorkUnitID="{B89D9F4E-0167-446B-BC21-D590FD4805CB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

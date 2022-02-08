@@ -26,6 +26,20 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
+		<SoundBank Id="384319659" Language="SFX" Hash="1816103817">
+			<ObjectPath>\SoundBanks\Default Work Unit\Mainhall_Music</ObjectPath>
+			<ShortName>Mainhall_Music</ShortName>
+			<Path>Mainhall_Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2740123722" Name="Play_Meditation" ObjectPath="\Events\Default Work Unit\Play_Meditation" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="1028976758" Language="SFX">
+					<ShortName>Meditation.wav</ShortName>
+					<Path>SFX/Meditation_4868902F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1277414221" Language="SFX" Hash="2857786020">
 			<ObjectPath>\SoundBanks\Default Work Unit\Wind_Chimes</ObjectPath>
 			<ShortName>Wind_Chimes</ShortName>

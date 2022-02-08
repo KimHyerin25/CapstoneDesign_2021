@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2740123722	Play_Meditation			\Default Work Unit\Play_Meditation	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1028976758	Meditation	Y:\Documents\GitHub\CapstoneDesign_2021\CapstoneDesign_202\CapstoneDesign_202_WwiseProject\.cache\Windows\SFX\Meditation_4868902F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meditation		51264852
+

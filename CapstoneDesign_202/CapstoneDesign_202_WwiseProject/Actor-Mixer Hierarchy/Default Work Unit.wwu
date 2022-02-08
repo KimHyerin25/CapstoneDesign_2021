@@ -181,10 +181,55 @@
 								<MediaID ID="541015383"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="Meditation" ID="{D9C85DBB-4B54-4685-AC3B-050DFA602E4D}">
+							<Language>SFX</Language>
+							<AudioFile>Meditation.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="984172757"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Wind Chimes Sound Effect (free)" ID="{791EC336-DD90-4CD0-A23F-95B57383CBC1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Meditation" ID="{266CB435-CAE8-4CDC-B4DA-ACAA55AA71FA}" ShortID="388295443">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-27</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2A7C5706-742F-4C4B-AAED-7E4D9C1A3B82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{919F35D9-658B-4DAA-A400-5C0A55F08074}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Meditation" ID="{1FCD79DF-4AF2-43A2-AD38-4C5FDB3F44C7}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="2.7633918128655"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="11.053567251462"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="4.60565302144249"/>
+								<Property Name="TrimEnd" Type="Real64" Value="295.222358674464"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Meditation.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1028976758"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Meditation" ID="{1FCD79DF-4AF2-43A2-AD38-4C5FDB3F44C7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

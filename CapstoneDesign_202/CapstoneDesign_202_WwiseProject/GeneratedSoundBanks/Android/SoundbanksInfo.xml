@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="72377605" Language="SFX" Hash="3278364682">
+		<SoundBank Id="72377605" Language="SFX" Hash="3883293525">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_ambience</ObjectPath>
 			<ShortName>Main_ambience</ShortName>
 			<Path>Main_ambience.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1882474850" Name="Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP" ObjectPath="\Events\Default Work Unit\Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP" MaxAttenuation="120." DurationType="Infinite">
+				<Event Id="1882474850" Name="Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP" ObjectPath="\Events\Default Work Unit\Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP" MaxAttenuation="140." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="55819008" Language="SFX">
 							<ShortName>AMB SUBURB Solo Bird Call, Early Morning, Distant Traffic Passbys, Montreal, Canada, LOOP.wav</ShortName>
@@ -25,6 +25,20 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="384319659" Language="SFX" Hash="1816103817">
+			<ObjectPath>\SoundBanks\Default Work Unit\Mainhall_Music</ObjectPath>
+			<ShortName>Mainhall_Music</ShortName>
+			<Path>Mainhall_Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2740123722" Name="Play_Meditation" ObjectPath="\Events\Default Work Unit\Play_Meditation" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="1028976758" Language="SFX">
+					<ShortName>Meditation.wav</ShortName>
+					<Path>SFX/Meditation_4868902F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1277414221" Language="SFX" Hash="2857786020">
 			<ObjectPath>\SoundBanks\Default Work Unit\Wind_Chimes</ObjectPath>

@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Meditation" ID="{DC08222A-1244-4351-8419-1A2713173EB0}">
+					<ChildrenList>
+						<Action Name="" ID="{CC6D5EC5-275D-478A-82D5-67F26669B2BB}" ShortID="136472576">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Meditation" ID="{266CB435-CAE8-4CDC-B4DA-ACAA55AA71FA}" WorkUnitID="{B89D9F4E-0167-446B-BC21-D590FD4805CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

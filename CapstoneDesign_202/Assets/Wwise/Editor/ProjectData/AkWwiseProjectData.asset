@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 4e1b84830579a84fa60cb06db4285e88
     GuidInternal: 
-    m_lastTime: -8585573939254775808
+    m_lastTime: -8585573237294775808
     List:
     - name: Main_ambience
       guid: b209e9dd5627db46bf2da21df7e1e0f1
@@ -82,6 +82,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: b209e9dd5627db46bf2da21df7e1e0f1
       Path: SoundBanks/Default Work Unit/Main_ambience
+    - name: Mainhall_Music
+      guid: ba6a11a214bd2e47aea13019f173b658
+      id: 384319659
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4e1b84830579a84fa60cb06db4285e88
+      - ElementName: Mainhall_Music
+        ObjectType: 7
+        guid: ba6a11a214bd2e47aea13019f173b658
+      Path: SoundBanks/Default Work Unit/Mainhall_Music
     - name: Wind_Chimes
       guid: 693aa1006172a84088f818b9df29b953
       id: 1277414221
@@ -122,7 +136,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 20d273cda43ddc4aad68a05df5035c2d
     GuidInternal: 
-    m_lastTime: -8585573939254775808
+    m_lastTime: -8585573237294775808
     List:
     - name: Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP
       guid: fb12c89c44040447961eed5397c01252
@@ -139,6 +153,23 @@ MonoBehaviour:
         guid: fb12c89c44040447961eed5397c01252
       Path: Events/Default Work Unit/Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP
       maxAttenuation: 140
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Meditation
+      guid: 2a2208dc4412514384191a2713173eb0
+      id: 2740123722
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 20d273cda43ddc4aad68a05df5035c2d
+      - ElementName: Play_Meditation
+        ObjectType: 3
+        guid: 2a2208dc4412514384191a2713173eb0
+      Path: Events/Default Work Unit/Play_Meditation
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_Wind_Chimes_Sound_Effect__free_
@@ -232,7 +263,7 @@ MonoBehaviour:
     m_lastTime: -8585574809594775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000b0000000c0000000d0000000e000000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000130000001400000016000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

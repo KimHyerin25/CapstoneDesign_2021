@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: f7f27074a7e9d74fbd4ab6ac870ae99d
-    ParentPath: Virtual Acoustics/Default Work Unit
+    ParentPath: Virtual Acoustics\Default Work Unit
     guid: f7f27074a7e9d74fbd4ab6ac870ae99d
     GuidInternal: 
-    m_lastTime: -8585574809594775808
+    m_lastTime: -8585573070129377601
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: d9359f918b65aa4da4005c0a55f08074
-    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: d9359f918b65aa4da4005c0a55f08074
     GuidInternal: 
-    m_lastTime: -8585574809594775808
+    m_lastTime: -8585573070143354462
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,10 +63,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 4e1b84830579a84fa60cb06db4285e88
-    ParentPath: SoundBanks/Default Work Unit
+    ParentPath: SoundBanks\Default Work Unit
     guid: 4e1b84830579a84fa60cb06db4285e88
     GuidInternal: 
-    m_lastTime: -8585573237294775808
+    m_lastTime: -8585573070129377601
     List:
     - name: Main_ambience
       guid: b209e9dd5627db46bf2da21df7e1e0f1
@@ -81,7 +81,7 @@ MonoBehaviour:
       - ElementName: Main_ambience
         ObjectType: 7
         guid: b209e9dd5627db46bf2da21df7e1e0f1
-      Path: SoundBanks/Default Work Unit/Main_ambience
+      Path: SoundBanks\Default Work Unit\Main_ambience
     - name: Mainhall_Music
       guid: ba6a11a214bd2e47aea13019f173b658
       id: 384319659
@@ -95,7 +95,7 @@ MonoBehaviour:
       - ElementName: Mainhall_Music
         ObjectType: 7
         guid: ba6a11a214bd2e47aea13019f173b658
-      Path: SoundBanks/Default Work Unit/Mainhall_Music
+      Path: SoundBanks\Default Work Unit\Mainhall_Music
     - name: Wind_Chimes
       guid: 693aa1006172a84088f818b9df29b953
       id: 1277414221
@@ -109,7 +109,7 @@ MonoBehaviour:
       - ElementName: Wind_Chimes
         ObjectType: 7
         guid: 693aa1006172a84088f818b9df29b953
-      Path: SoundBanks/Default Work Unit/Wind_Chimes
+      Path: SoundBanks\Default Work Unit\Wind_Chimes
     - name: Wind_in_pine_trees
       guid: a01887ac071e064183f7d4aab2eb99eb
       id: 4163747318
@@ -123,9 +123,9 @@ MonoBehaviour:
       - ElementName: Wind_in_pine_trees
         ObjectType: 7
         guid: a01887ac071e064183f7d4aab2eb99eb
-      Path: SoundBanks/Default Work Unit/Wind_in_pine_trees
+      Path: SoundBanks\Default Work Unit\Wind_in_pine_trees
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -133,10 +133,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 20d273cda43ddc4aad68a05df5035c2d
-    ParentPath: Events/Default Work Unit
+    ParentPath: Events\Default Work Unit
     guid: 20d273cda43ddc4aad68a05df5035c2d
     GuidInternal: 
-    m_lastTime: -8585573237294775808
+    m_lastTime: -8585573070161301758
     List:
     - name: Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP
       guid: fb12c89c44040447961eed5397c01252
@@ -151,7 +151,7 @@ MonoBehaviour:
       - ElementName: Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP
         ObjectType: 3
         guid: fb12c89c44040447961eed5397c01252
-      Path: Events/Default Work Unit/Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP
+      Path: Events\Default Work Unit\Play_AMB_SUBURB_Solo_Bird_Call__Early_Morning__Distant_Traffic_Passbys__Montreal__Canada__LOOP
       maxAttenuation: 140
       maxDuration: -1
       minDuration: -1
@@ -168,7 +168,7 @@ MonoBehaviour:
       - ElementName: Play_Meditation
         ObjectType: 3
         guid: 2a2208dc4412514384191a2713173eb0
-      Path: Events/Default Work Unit/Play_Meditation
+      Path: Events\Default Work Unit\Play_Meditation
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -185,7 +185,7 @@ MonoBehaviour:
       - ElementName: Play_Wind_Chimes_Sound_Effect__free_
         ObjectType: 3
         guid: 948a4c148913ce47b9309d94121b41f8
-      Path: Events/Default Work Unit/Play_Wind_Chimes_Sound_Effect__free_
+      Path: Events\Default Work Unit\Play_Wind_Chimes_Sound_Effect__free_
       maxAttenuation: 0
       maxDuration: 14.675622
       minDuration: 14.675622
@@ -202,12 +202,12 @@ MonoBehaviour:
       - ElementName: Play_Wind_In_Pine_Trees___Sound_Effect
         ObjectType: 3
         guid: 59a3d694752b544fae4c1f823d8ec240
-      Path: Events/Default Work Unit/Play_Wind_In_Pine_Trees___Sound_Effect
+      Path: Events\Default Work Unit\Play_Wind_In_Pine_Trees___Sound_Effect
       maxAttenuation: 120
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -215,13 +215,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 745298128f6148499946147522090144
-    ParentPath: Game Parameters/Default Work Unit
+    ParentPath: Game Parameters\Default Work Unit
     guid: 745298128f6148499946147522090144
     GuidInternal: 
-    m_lastTime: -8585574809594775808
+    m_lastTime: -8585573070161301758
     List: []
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -229,13 +229,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: c66befba61e89341a5fe7389231418f6
-    ParentPath: States/Default Work Unit
+    ParentPath: States\Default Work Unit
     guid: c66befba61e89341a5fe7389231418f6
     GuidInternal: 
-    m_lastTime: -8585574809594775808
+    m_lastTime: -8585573070129377601
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -243,13 +243,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: a5e9aedfb4037a4ab57d126bd84bb142
-    ParentPath: Switches/Default Work Unit
+    ParentPath: Switches\Default Work Unit
     guid: a5e9aedfb4037a4ab57d126bd84bb142
     GuidInternal: 
-    m_lastTime: -8585574809594775808
+    m_lastTime: -8585573070129377601
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -257,13 +257,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 056ee8b4e08a744c9a713c83a489ebb8
-    ParentPath: Triggers/Default Work Unit
+    ParentPath: Triggers\Default Work Unit
     guid: 056ee8b4e08a744c9a713c83a489ebb8
     GuidInternal: 
-    m_lastTime: -8585574809594775808
+    m_lastTime: -8585573070129377601
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000130000001400000016000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

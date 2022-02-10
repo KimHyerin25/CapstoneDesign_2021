@@ -131,8 +131,8 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableToolsCreator.cs" />
      <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\P2PManager.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs" />
-     <Compile Include="Assets\AutoHand\Scripts\Demo\Text Demo\TMPSizeProtector.cs" />
      <Compile Include="Assets\BOXOPHOBIC\The Vegetation Engine\Demo\Scripts\TVESimpleNPCController.cs" />
+     <Compile Include="Assets\AutoHand\Scripts\Demo\Text Demo\TMPSizeProtector.cs" />
      <Compile Include="Assets\AutoHand\Examples\Scenes\XR\Scripts\XRMover.cs" />
      <Compile Include="Assets\AutoHand\Scripts\Attributes\AutoHeaderAttribute.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Firebase\SampleUI.cs" />
@@ -745,7 +745,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -1092,68 +1092,77 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Recorder.Editor">
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Recorder.Base">
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Management.Editor">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Management">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Oculus.Editor">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Oculus">
- <HintPath>C:/Users/hwayoung LEE/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Recorder">
+ <HintPath>C:/Users/dst1234/Documents/GitHub/CapstoneDesign_2021/CapstoneDesign_202/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
